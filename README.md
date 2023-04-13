@@ -1,3 +1,3 @@
 # VR_Training
  
-Simple VR application demo implemented with UltimateXR
+Basic solo VR book scanner interaction demo implemented with UltimateXR
