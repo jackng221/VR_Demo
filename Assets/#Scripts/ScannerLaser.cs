@@ -10,11 +10,16 @@ public class ScannerLaser : MonoBehaviour
     public float defaultWaitSeconds = 1.5f;
     [SerializeField] float waitSeconds;
 
-    [SerializeField] UnityEvent<int> RegisterBookEvent;
+    public UnityEvent<int> RegisterBookEvent;
 
     private void Start()
     {
         waitSeconds = defaultWaitSeconds;
+
+        if (RegisterBookEvent == null)
+        {
+            RegisterBookEvent = new UnityEvent<int>();
+        }
     }
 
     private void OnTriggerStay(Collider other)
@@ -35,5 +40,10 @@ public class ScannerLaser : MonoBehaviour
         {
             waitSeconds = defaultWaitSeconds;
         }
+    }
+    [ContextMenu("TestRegister1")]
+    void TestRegister1()
+    {
+        RegisterBookEvent.Invoke(1);
     }
 }
