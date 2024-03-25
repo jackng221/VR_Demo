@@ -1020,7 +1020,8 @@ MonoBehaviour:
     - {fileID: 284813340}
     - {fileID: 2072167474}
     toDo: 1
-  - instruction: If the book is valid, it should show on the screen.
+  - instruction: If the book is valid, it should show on the screen. Remove it from
+      the sink before scanning more books.
     outlineObjs:
     - {fileID: 465453526}
     toDo: 0
@@ -1046,16 +1047,16 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 470119130}
-  m_LocalRotation: {x: -0, y: 0.516658, z: -0, w: 0.8561919}
-  m_LocalPosition: {x: 1.251, y: 1.516, z: 0.552}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: -0, y: 0.50008786, z: -0, w: 0.86597466}
+  m_LocalPosition: {x: 1.005, y: 1.32, z: 0.524}
+  m_LocalScale: {x: 0.54922, y: 0.54922, z: 0.54922}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 553235795}
   - {fileID: 164653461}
   m_Father: {fileID: 0}
   m_RootOrder: 8
-  m_LocalEulerAnglesHint: {x: 0, y: 62.217, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 60.012, z: 0}
 --- !u!43 &534715682
 Mesh:
   m_ObjectHideFlags: 0
